@@ -1,0 +1,23 @@
+//
+//  common.pch
+//  RunWithYou
+//
+//  Created by 卡神 on 15/8/27.
+//  Copyright (c) 2015年 no.4. All rights reserved.
+//
+
+#ifndef ____common_pch
+#define ____common_pch
+#import "UIViewExt.h"
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+#define viewRemove @"viewRemove"
+// 运动列表
+#define ActivityTypeList @"ActivityTypeList.plist"
+
+#define kVersion [[UIDevice currentDevice].systemVersion floatValue]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
